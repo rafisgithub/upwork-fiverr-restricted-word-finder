@@ -13,8 +13,9 @@
     },
     {
       "src": "/(.*)",
-      "dest": "dist/$1"
+      "dest": "dist/index.js"
     }
+    
   ],
   "buildCommand": "./build-for-vercel.sh"
 }
